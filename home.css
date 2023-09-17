@@ -1,7 +1,30 @@
 .title {
     font-size: 45px;
-    color: blue;
     text-align: center;
+}
+
+.we {
+    color: red;
+}
+
+.are {
+    color: orange;
+}
+
+.going {
+    color: yellow;
+}
+
+.to {
+    color: green;
+}
+
+.calculate {
+    color: blue;
+}
+
+.exclamationPoint {
+    color: purple;
 }
 
 .container {
