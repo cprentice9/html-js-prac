@@ -3,6 +3,7 @@ function add() {
     const numTwo = document.getElementById('num2').value;
     const theAnswer = parseInt(numOne) + parseInt(numTwo);
     alert(theAnswer);
+    console.log(theAnswer);
     }
 
 function subtract() {
@@ -10,6 +11,7 @@ function subtract() {
     const numTwo = document.getElementById('num2').value;
     const theAnswer = parseInt(numOne) - parseInt(numTwo);
     alert(theAnswer);
+    console.log(theAnswer);
     }
 
 function multiply() {
@@ -17,6 +19,7 @@ function multiply() {
     const numTwo = document.getElementById('num2').value;
     const theAnswer = parseInt(numOne) * parseInt(numTwo);
     alert(theAnswer);
+    console.log(theAnswer);
     }
 
 function divide() {
@@ -24,4 +27,5 @@ function divide() {
     const numTwo = document.getElementById('num2').value;
     const theAnswer = parseInt(numOne) / parseInt(numTwo);
     alert(theAnswer);
+    console.log(theAnswer);
     }

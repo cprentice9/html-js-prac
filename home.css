@@ -85,3 +85,9 @@ button {
     text-shadow: -1px -1px 0 crimson, 1px -1px 0 crimson, -1px 1px 0 crimson, 1px 1px 0 crimson;
     letter-spacing: 2px;
 }
+button:hover {
+    background-color: crimson;
+    cursor: pointer;
+    text-shadow: -1px -1px 0 darkslateblue, 1px -1px 0 darkslateblue, -1px 1px 0 darkslateblue, 1px 1px 0 darkslateblue;
+    border: 2px solid darkslateblue;
+}
