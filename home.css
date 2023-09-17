@@ -1,6 +1,12 @@
 .title {
     font-size: 45px;
     text-align: center;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    text-align: center;
 }
 
 .we {
@@ -28,19 +34,54 @@
 }
 
 .container {
-    width: 90%;
-    height: 90%;
+    width: 50%;
+    height: 50%;
     margin: 10% auto;
     padding: 40px 40px;
-    outline: solid 1px black;
+    outline: dashed 3px crimson;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+}
+
+.mainDiv {
+    text-align: center;
 }
 
 .labelOne {
-    color: red;
+    color: crimson;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .labelTwo {
-    color: green;
+    color: darkslateblue;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inputOne {
+    width: 15%;
+    border-radius: 8px;
+    border-color: darkslateblue;
+    color: crimson;
+}
+
+.inputTwo {
+    width: 15%;
+    border-radius: 8px;
+    border-color: crimson;
+    color: darkslateblue;
+}
+
+button {
+    padding: 14px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    background-color: darkslateblue;
+    font-size: 24px;
+    color: white;
+    text-shadow: -1px -1px 0 crimson, 1px -1px 0 crimson, -1px 1px 0 crimson, 1px 1px 0 crimson;
+    letter-spacing: 2px;
 }
